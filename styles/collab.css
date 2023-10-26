@@ -1,0 +1,63 @@
+.collab-hero {
+    display: flex;
+    padding-top: 3rem;
+}
+
+
+.collab-hero-img {
+    display: flex;
+}
+
+.collab-hero-img img {
+    flex: 1 0 auto;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.collab-hero-desc {
+    width: fit-content;
+    display: flex;
+    padding: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.collab-hero-desc h3 {
+    font-size: 150px;
+}
+
+.collab-hero-desc h1 {
+    font-size: 30px;
+    opacity: 30%;
+}
+
+.collab-content {
+    position: relative;
+}
+
+.collab-content-dec {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    padding: 3rem 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.collab-content-img-grids {
+    display: flex;
+    z-index: 1;
+}
+
+.collab-content-img-grids img {
+    flex: 1 0 auto;
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}

@@ -1,0 +1,25 @@
+.store-locator-wrapper {
+    display: flex;
+}
+
+.store-img {
+    display: flex;
+}
+
+.store-img img {
+    flex: 1 0 auto;
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.store-desc {
+    flex: 1;
+    width: fit-content;
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}

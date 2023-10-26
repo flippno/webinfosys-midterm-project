@@ -1,0 +1,27 @@
+@import url("/styles/header.css");
+@import url("/styles/hero.css");
+@import url("/styles/scrollbar.css");
+@import url("/styles/category.css");
+@import url("/styles/about.css");
+@import url("/styles/footer.css");
+@import url("/styles/lookbook.css");
+@import url("/styles/apparel.css");
+@import url("/styles/storelocator.css");
+@import url("/styles/collab.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Mulish:wght@300&display=swap');
+@import url("/styles/signup.css");
+@import url("/styles/login.css");
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+a, p, label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    scroll-behavior: smooth;
+}

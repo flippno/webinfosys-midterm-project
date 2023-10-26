@@ -1,0 +1,51 @@
+
+.hero-banner {
+    position: relative;
+}
+
+.hero-bg {
+    display: flex;
+    z-index: 1;
+}
+
+.hero-bg img {
+    flex: 1 0 auto;
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero-cta {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: calc(100vh - 400px);
+    left: 20px;
+}
+
+.hero-cta h1 {
+    color: whitesmoke;
+    font-size: 67px;
+}
+
+.hero-cta ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.shop {
+    padding: 11px 42px;
+    border-style: none;
+}
+
+.store {
+    padding: 11px 29px;
+    color: white;
+    background-color: black;
+    border-style: solid;
+}

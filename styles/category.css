@@ -1,0 +1,56 @@
+.category-section {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-apparels {
+    flex: 6;
+    background: url('/assets/illcity.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.cat-apparels h2, .cat-collabs h2, .cat-lookbook h2{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-size: 35px;
+
+}
+
+.cat-apparels button, .cat-collabs button, .cat-lookbook button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+.cat-collabs {
+    flex: 4;
+    background: url('/assets/dj.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.cat-lookbook {
+    flex-basis: 100%;
+    background: url('/assets/apparels.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}

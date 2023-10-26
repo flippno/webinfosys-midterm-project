@@ -1,0 +1,99 @@
+
+.footer-main {
+    height: 300px;
+    border-bottom: solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 70px;
+}
+.footer-socmed {
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-socmed-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socmed .instagram, .footer-socmed .facebook, .footer-socmed .shopee, .footer-socmed .tiktok, .footer-socmed .physical-store {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.footer-socmed .instagram {
+    background: url('/assets/instagram.svg') no-repeat center;
+}
+
+.footer-socmed .facebook {
+    background: url('/assets/facebook.svg') no-repeat center;
+}
+
+.footer-socmed .shopee {
+    background: url('/assets/shopee.svg') no-repeat center;
+}
+
+.footer-socmed .tiktok {
+    background: url('/assets/tiktok.svg') no-repeat center;
+}
+
+.footer-socmed .physical-store {
+    background: url('/assets/store-solid.svg') no-repeat center;
+}
+
+.footer-subs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.footer-subs form {
+    padding-top: 20px;
+}
+
+.footer-subs .be-a-member {
+    padding: 8px 20px 8px 20px;
+    color: white;
+    background-color: black;
+}
+
+.footer-subs h4 {
+    font-size: 24px;
+}
+
+.footer-subs p {
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-subs input {
+    padding: 8px 20px 8px 20px;
+}
+
+.footer-credits {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background: black;
+    color: white;
+    font-size: 12px;
+}

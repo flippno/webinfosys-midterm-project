@@ -1,0 +1,63 @@
+.title {
+    font-size: 100px;
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+ }
+
+.vidbanner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.vidbanner video {
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+
+.navigations {
+    width: 100%;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.navigations ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navigations ul li {
+    padding: 1rem 2rem;
+}
+
+.navigations ul li:hover {
+    border-bottom: solid 1px;
+    background: hsla(0, 0%, 0%, 0.1);
+    transition: ease 700ms;
+}
+
+.navigations ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.apparel-banner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.apparel-bg {
+    display: flex;
+    scroll-snap-align: center;
+}
+
+.apparel-bg img {
+    flex: 1 0 auto;
+    width: 508px;
+    height: 508px;
+    object-fit: cover;
+}

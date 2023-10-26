@@ -1,0 +1,101 @@
+.signup-container h1 {
+    padding: 1rem;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.signup-container input {
+    padding: 0.5rem 6rem 0.5rem 0.5rem;
+    margin-left: 1rem;
+}
+
+.signup-container p{
+    margin-left: 5px;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+.signup-container p a {
+    font-size: 10px;
+    margin-left: 480px;
+}
+
+.signup-link {
+    padding: 0.8rem;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.signup-container button {
+    padding: 0.8rem 2rem;
+    margin-left: 15px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.register-link {
+    margin-left: 0.3rem;
+    color: black;
+}
+
+.store-locator-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: 85px;
+}
+
+.store-img {
+    display: flex;
+}
+
+.store-img img {
+    flex: 1 0 auto;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.signup-container {
+    flex: 1;
+    width: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 120px;
+}
+.signup-container form {
+    width: 100%;
+    position: relative;
+}
+
+.signup-container label {
+    position: absolute;
+    top: -18px;
+    left: 16px;
+    font-size: 12px;
+}
+
+.signup-container label:nth-last-of-type(4) {
+    top: 47px;
+    left: 305px;
+}
+
+.signup-container label:nth-last-of-type(3) {
+    top: 47px;
+    left: 16px;
+}
+
+.signup-container label:nth-last-of-type(2) {
+    left: 305px;
+}
+
+.signup-container input:nth-last-of-type(2), .signup-container input:nth-last-of-type(1) {
+    margin-top: 30px;
+}
